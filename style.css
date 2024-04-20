@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*background image for website page*/
+.image {
+    min-height: 100vh;
+    background-image: url(lines8.JPG);  /*pxl1.jpeg*//*top left repeat*/
+    /*background-repeat: round;*/
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    /*padding: 30px;*/
+    padding: 25px 60px 100px 60px;
+}
+
+
+
+/* div.transbox {
+  margin: 30px;
+  background-color: #E64C00;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+} */
+
+
+/* top navigation bar */
+.navbar {
+    /*font-family: "Lucida Console", Monaco, monospace;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: 0px;
+	/*word-spacing: 2px;*/
+	color: black
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+
+	overflow: hidden;
+	background-color: black
+}
+
+/* navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+	background-color: #ffffff;
+	color: black;
+}
+
+.content {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Lucida Console", Monaco, monospace;*/
+	font-size: 15px;
+	letter-spacing: 1px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1.5;
+
+	margin: auto;
+	padding: 50px;
+
+	/* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
+	background: white;
+	/*padding: 15px;*/
+	border-radius: 3px;
+}
+
+
+/* Style the header */
+.header {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+    
+	padding: 20px;
+	/*padding-bottom: 180px;*/
+	text-align: left;
+	background: url(lines6.JPG); /*stones1.png*/
+	/* added from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    /*color: white;*/
+    color: black;
+    font-size: 100px;
+}
+
+/*change color of h2 element*/
+.header h2 {
+    color: black;
+    font-size: 30px;
+}
+
+/*for text I want to be exceptionally white: */
+.whitetext {
+    color: #ffffff;
+}
+
+/*margins to center the grid */
+.gallerymargins {
+	/*margin: 10px 80px 10px 80px;*/
+	margin: 10px auto;
+}
+
+/* Image gallery for each topic, help from: https://www.w3schools.com/css/css_image_gallery.asp*/
+div.gallery {
+	margin: 20px;
+	float: left;
+	width: 230px;
+	height: 250px;
+}
+
+div.gallery:hover {
+	opacity: 0.5;
+	/*border: 1px solid #000000;*/
+}
+
+div.gallery img {
+ 	width: 230px;
+	height: 230px;
+/*
+	width: 100%;
+  height: auto;*/
+}
+
+/*text under each gallery image*/
+div.desc {
+	padding: 0px;
+	text-align: center;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+/*from : floating boxes*/
+
+/* #sides {
+    margin:0;
+    padding: 50px 0px 50px 0px;
+}
+#left {
+    float:left;
+    margin-left: 5%;
+    width:25%;
+    min-height:300px;
+    overflow:hidden;
+    border: 0;
+}
+#right {
+    float:left;
+    margin-left: 5%;
+    width:25%;
+    height:300px;
+    overflow:hidden;
+    border: 0;
+}
+#centre {
+    float:left;
+    margin-left: 5%;
+    width:25%;
+    min-height:300px;
+    overflow:hidden;
+    border: 0;
+}
+@media screen and (max-width: 300px) {
+    #left {
+        width:50%;
+        float: left;
+        margin: 1px;
+        min-height:100px;
+        border: 0;
+    }
+    #right {
+        width:50%;
+        margin: 1px;
+        min-height:100px;
+        border: 0;
+    }
+    #centre {
+        width:100%;
+        float: right;
+        margin: 1px;
+        min-height:100px;
+        border: 0;
+    }
+} */
+
+/* FILL IN LATER
+a: visited{
+    color:
+}*/
+
+/*
+h1 a:link,
+h1 a:visited{
+        color: black;
+        text-decoration: none;
+}
+*/
+
+
+/*Tables*/
+
+/*th, td {
+    text-align: left;
+     padding: 3px;
+ 
+}
+
+
+table.biotable{border: 0px;}
+
+li{
+    margin-top: 10px;
+}
+
+td.heading{
+        background: #CC6666;
+    text-align: center;
+        font-weight: bold;
+}
+
+tr.entry{
+        background: #DF9F9F;
+}
+
+
+td.photo{
+        text-align: center;
+        vertical-align: center;
+}
+
+*/
+/* two columns for widgets */
+
+/* Create two equal columns that floats next to each other */
+/*.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    height: 420px;
+}
+*/
+
+/* Clear floats after the columns */
+/*
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/

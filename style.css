@@ -43,6 +43,28 @@ body {
   filter: alpha(opacity=60);
 } */
 
+.skip {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Lucida Console", Monaco, monospace;*/
+	font-size: 15px;
+	letter-spacing: 1px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1.5;
+
+	margin: auto;
+	padding: 0px;
+
+	/* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
+	background: white;
+	/*padding: 15px;*/
+	border-radius: 3px;
+}
 
 /* top navigation bar */
 .navbar {
@@ -68,7 +90,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 8px 20px;
+    padding: 8px 10px;
     text-decoration: none;
 }
 

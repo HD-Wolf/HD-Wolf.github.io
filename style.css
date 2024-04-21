@@ -29,7 +29,8 @@ body {
 }
 	
 .profile img {
-/*  	max-width: 50px;/* 50%; */
+  	max-width: 100%;
+	height: auto
 /* 	max-height:50px; */
  	padding-right: 20px; */
 /* 	align-items: right; */

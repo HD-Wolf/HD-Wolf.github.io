@@ -129,9 +129,13 @@ hr {
 }
 
 /* Change color on hover */
-.navbar a:hover {
+/* .navbar a:hover {
 	background-color: #ffffff;
 	color: black;
+} */
+.navbar a:hover {
+	background-color: #000000;
+	color: white;
 }
 
 .content {

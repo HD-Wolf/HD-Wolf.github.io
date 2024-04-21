@@ -27,10 +27,11 @@ body {
 }
 	
 .profileimg {
- 	max-width: 200px;/* 50%; */
-	max-height:200px;
-	padding-right: 20px;
-	align-items: right;
+ 	max-width: 50px;/* 50%; */
+	max-height:50px;
+/* 	padding-right: 20px; */
+/* 	align-items: right; */
+	float: right;
 }
 
 

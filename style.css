@@ -58,7 +58,7 @@ body {
 	line-height: 1.5;
 
 	margin: auto;
-	padding: 0px;
+	padding: 10px;
 
 	/* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
 	background: white;

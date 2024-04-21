@@ -96,7 +96,7 @@ body {
 .header {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	word-spacing: 6px;
 	font-weight: bold;
 	text-decoration: none;
@@ -104,26 +104,26 @@ body {
 	font-variant: normal;
 	text-transform: none;
     
-	padding: 20px;
+	padding: 15px;
 	/*padding-bottom: 180px;*/
 	text-align: left;
-	background: url(lines6.JPG); /*stones1.png*/
+/* 	background: url(lines6.JPG); /*stones1.png*/ */
 	/* added from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css */
-	background-size: cover;
-	background-repeat: no-repeat;
+/* 	background-size: cover;
+	background-repeat: no-repeat; */
 }
 
 /* Increase the font size of the h1 element */
 .header h1 {
     /*color: white;*/
     color: black;
-    font-size: 100px;
+    font-size: 20px;
 }
 
 /*change color of h2 element*/
 .header h2 {
     color: black;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 /*for text I want to be exceptionally white: */
@@ -132,34 +132,34 @@ body {
 }
 
 /*margins to center the grid */
-.gallerymargins {
+/* .gallerymargins {
 	/*margin: 10px 80px 10px 80px;*/
 	margin: 10px auto;
-}
+} */
 
 /* Image gallery for each topic, help from: https://www.w3schools.com/css/css_image_gallery.asp*/
-div.gallery {
+/* div.gallery {
 	margin: 20px;
 	float: left;
 	width: 230px;
 	height: 250px;
-}
+} */
 
-div.gallery:hover {
-	opacity: 0.5;
+/* div.gallery:hover {
+	opacity: 0.5; */
 	/*border: 1px solid #000000;*/
-}
+/* } */
 
-div.gallery img {
+/* div.gallery img {
  	width: 230px;
-	height: 230px;
+	height: 230px; */
 /*
 	width: 100%;
   height: auto;*/
-}
+/* } */
 
 /*text under each gallery image*/
-div.desc {
+/* div.desc {
 	padding: 0px;
 	text-align: center;
 
@@ -168,123 +168,4 @@ div.desc {
 	letter-spacing: 1px;
 	word-spacing: 2px;
 }
-
-/*from : floating boxes*/
-
-/* #sides {
-    margin:0;
-    padding: 50px 0px 50px 0px;
-}
-#left {
-    float:left;
-    margin-left: 5%;
-    width:25%;
-    min-height:300px;
-    overflow:hidden;
-    border: 0;
-}
-#right {
-    float:left;
-    margin-left: 5%;
-    width:25%;
-    height:300px;
-    overflow:hidden;
-    border: 0;
-}
-#centre {
-    float:left;
-    margin-left: 5%;
-    width:25%;
-    min-height:300px;
-    overflow:hidden;
-    border: 0;
-}
-@media screen and (max-width: 300px) {
-    #left {
-        width:50%;
-        float: left;
-        margin: 1px;
-        min-height:100px;
-        border: 0;
-    }
-    #right {
-        width:50%;
-        margin: 1px;
-        min-height:100px;
-        border: 0;
-    }
-    #centre {
-        width:100%;
-        float: right;
-        margin: 1px;
-        min-height:100px;
-        border: 0;
-    }
-} */
-
-/* FILL IN LATER
-a: visited{
-    color:
-}*/
-
-/*
-h1 a:link,
-h1 a:visited{
-        color: black;
-        text-decoration: none;
-}
-*/
-
-
-/*Tables*/
-
-/*th, td {
-    text-align: left;
-     padding: 3px;
- 
-}
-
-
-table.biotable{border: 0px;}
-
-li{
-    margin-top: 10px;
-}
-
-td.heading{
-        background: #CC6666;
-    text-align: center;
-        font-weight: bold;
-}
-
-tr.entry{
-        background: #DF9F9F;
-}
-
-
-td.photo{
-        text-align: center;
-        vertical-align: center;
-}
-
-*/
-/* two columns for widgets */
-
-/* Create two equal columns that floats next to each other */
-/*.column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-    text-align: center;
-    height: 420px;
-}
-*/
-
-/* Clear floats after the columns */
-/*
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-*/
+ */

@@ -24,6 +24,7 @@ body {
 /* 	align-items: center;
 	justify-content: center */
 	max-height: 50px;
+	padding: 10px;
 }
 	
 .profileimg {
@@ -134,7 +135,7 @@ body {
 /* Style the header */
 .header {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 100px;
+	font-size: 20px;
 	letter-spacing: 0px;
 	word-spacing: 6px;
 	font-weight: bold;
@@ -156,7 +157,7 @@ body {
 .header h1 {
     /*color: white;*/
     color: black;
-    font-size: 40px;
+    font-size: 100px;
 }
 
 /*change color of h2 element*/

@@ -23,6 +23,7 @@ body {
 /* 	align-items: center;
 	justify-content: center */
 /*  	max-height: 50px; */
+  	align-items: flex-end;
 	padding: 10px;
 }
 	

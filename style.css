@@ -25,7 +25,7 @@ body {
 	justify-content: space-between;
  	max-height: 200px;
   	align-items: flex-end;
-	padding: 10px 50px;
+	padding: 20px 50px;
 }
 	
 .profile img {
@@ -33,7 +33,7 @@ body {
 	width: auto;
 /* 	max-height:50px; */
 /* 	padding-left: 200px; */
- 	padding-right: 20px;
+ 	padding-right: 50px;
 	display: flex;
 	align-items: right;
 /* 	float: right; */
@@ -74,7 +74,7 @@ body {
 
 /*separating lines for nav bar*/
 hr {
-  width: 97%;
+  width: 95%;
 }
 
 /* top navigation bar */
@@ -105,7 +105,7 @@ hr {
 	font-style: normal;
 	font-variant: normal;
 	text-transform: none;
-	padding: 0px 40px;
+	padding: 0px 50px;
 
 	overflow: hidden;
 	background-color: white

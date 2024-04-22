@@ -150,7 +150,7 @@ hr {
 .content {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	/*font-family: "Lucida Console", Monaco, monospace;*/
-	font-size: 15px;
+	font-size: 17px;
 	letter-spacing: 1px;
 	word-spacing: 0px;
 	color: #000000;
@@ -196,7 +196,7 @@ hr {
 .header h1 {
     /*color: white;*/
     color: black;
-    font-size: 80px;
+    font-size: 90px;
 }
 
 /*change color of h2 element*/

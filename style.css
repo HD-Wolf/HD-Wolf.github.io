@@ -25,7 +25,7 @@ body {
 	justify-content: center
  	max-height: 200px;
   	align-items: flex-end;
-	padding: 10px;
+	padding: 50px;
 }
 	
 .profile img {
@@ -124,7 +124,7 @@ hr {
     display: block;
     color: black;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px 50px;
     text-decoration: none;
 }
 
@@ -162,7 +162,7 @@ hr {
 	line-height: 1.5;
 
 	margin: auto;
-	padding: 10px 50px;
+	padding: 5px 50px;
 
 	/* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
 	background: white;
@@ -183,7 +183,7 @@ hr {
 	font-variant: normal;
 	text-transform: none;
     
-	padding: 5px;
+	padding: 0px;
 	/*padding-bottom: 180px;*/
 	text-align: left;
 /* 	background: url(lines6.JPG); /*stones1.png*/ */
@@ -213,8 +213,8 @@ hr {
 /*margins to center the grid */
 /* .gallerymargins {
 	/*margin: 10px 80px 10px 80px;*/
-	margin: 10px auto;
-} */
+/* 	margin: 10px auto;
+} */ 
 
 /* Image gallery for each topic, help from: https://www.w3schools.com/css/css_image_gallery.asp*/
 /* div.gallery {

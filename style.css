@@ -25,7 +25,7 @@ body {
 	justify-content: space-between;
 /*  	max-height: 200px; */
   	align-items: flex-end;
-	padding: 10px 60px;
+	padding: 10px 50px;
 }
 	
 .profile img {
@@ -75,7 +75,7 @@ body {
 
 /*separating lines for nav bar*/
 hr {
-  width: 92%;
+  width: 93%;
 }
 
 /* top navigation bar */
@@ -106,7 +106,7 @@ hr {
 	font-style: normal;
 	font-variant: normal;
 	text-transform: none;
-	padding: 0px 60px;
+	padding: 0px 50px;
 
 	overflow: hidden;
 	background-color: white
@@ -164,7 +164,7 @@ hr {
 	line-height: 1.5;
 
 	margin: auto;
-	padding: 5px 110px 100px 70px;
+	padding: 5px 100px 100px 60px;
 
 	/* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
 	background: white;
